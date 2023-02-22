@@ -8,6 +8,7 @@
 int main(void)
 {
         int n;
+
         int lastDigit;
 
         srand(time(0));
@@ -28,5 +29,4 @@ int main(void)
         {
         printf("%d and is less than 6 and not 0\n", lastDigit);
         }
- }
-
+}
