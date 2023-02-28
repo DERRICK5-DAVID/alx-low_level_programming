@@ -4,12 +4,12 @@
 /**
  * print_rev - prints character of string in reverse order
  * @s: pointer to array of characters
- * @len: helps in increamenting and reversing
  * Return: Always 0.
  */
 void print_rev(char *s)
 {
 	int len = 0;
+
 	while (*s != '\0')
 	{
 		len++;
