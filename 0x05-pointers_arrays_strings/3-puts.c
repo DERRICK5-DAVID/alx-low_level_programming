@@ -3,7 +3,7 @@
 
 /**
  * _puts - prints out the characters of a string
- * @*str: pointer to character array
+ * @str: pointer to character array
  * Return: Always 0.
  */
 
