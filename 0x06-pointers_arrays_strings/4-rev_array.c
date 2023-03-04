@@ -1,18 +1,16 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * _strcmp -  compares two strings
- * @str: pointer to str
- * @i: int i
- * Return: return comparison of two strings
+ * reverse_array -  reverses string
+ * @a: pointer to a
+ * Return:void
  */
-char *string_toupper(char *str)
+void reverse_array(int *a, int n)
 {
-	int i = 0;
-	while (str[i])
-	{
-		str[i] = toupper(str[i]);
-		i++;
+	int temp;
+	for(int i = 0; i < n/2; i++) {
+		temp = a[i];
+		a[i] = a[n-i-1];
+		a[n-i-1] = temp;
 	}
-	return (str);
 }
