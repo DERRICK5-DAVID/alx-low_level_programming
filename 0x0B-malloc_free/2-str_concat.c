@@ -13,13 +13,13 @@ char *str_concat(char *s1, char *s2)
 /* If s1 is NULL, treat it as an empty string */
 	if (s1 == NULL)
 	{
-		s1 = ""
+		s1 = "";
 	}
 
 /* If s2 is NULL, treat it as an empty string */
 	if (s2 == NULL)
 	{
-		s2 = ""
+		s2 = "";
 	}
 
 /* Allocate memory for the concatenated string */
