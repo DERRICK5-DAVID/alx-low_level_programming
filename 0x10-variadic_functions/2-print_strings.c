@@ -1,7 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <stddef.h
+#include <stddef.h>
 /**
  * print_strings - prints strings, followed by a new line
  * @n: const unsigned int n
@@ -16,7 +16,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	va_start(args, n);
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i > n; i++)
 	{
 	str = va_arg(args, char *);
 
