@@ -1,10 +1,9 @@
-#include < stdio.h >
 #include "lists.h"
 #include <stddef.h>
-
+#include <stdio.h>
 /**
- * list_len - returns the number of elements a linked list_t list
- * @h: pointer h
+ * list_len - returns number of elements a linked list_t list
+ * @h: pointer to h
  * Return: count.
  */
 
